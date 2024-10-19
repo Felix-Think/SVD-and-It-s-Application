@@ -9,6 +9,6 @@ This project is to implement Singular Value Decomposition (SVD) and apply it to 
  To clarify this issue further, you can folow this link: [Decomposing a Vector into two orthogonal axes](https://drive.google.com/file/d/1UlCpf4DSyoQoydmT_FOWRdNy03ZmPO8A/view?usp=sharing)
 
 ## Express the operation of vector decomposition using matric (SVD)
- We have clarified the concept of decomposing a vector into two orthogonal axes. Next, we will not only apply this concept to a vector but also to a matrix. [[Express the operation of vector decomposition using matric (SVD)](Express_the_operation_of_vector_decomposition_using_matric_(SVD).pptx](https://drive.google.com/file/d/1106oeyfi-McqwoEKQBJNraRmiV4Jxp15/view?usp=sharing))
+ We have clarified the concept of decomposing a vector into two orthogonal axes. Next, we will not only apply this concept to a vector but also to a matrix. [Express the operation of vector decomposition using matric (SVD)](Express_the_operation_of_vector_decomposition_using_matric_(SVD).pptx](https://drive.google.com/file/d/1106oeyfi-McqwoEKQBJNraRmiV4Jxp15/view?usp=sharing))
 
 ## Image Compression and Denoising using SVD# -Mini-Project-SVD-and_Its_Application
