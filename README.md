@@ -2,7 +2,7 @@
 ## Introduction
 This project is to implement Singular Value Decomposition (SVD) and apply it to image compression and collaborative filtering.
 
-**Keep it simple**: Since mathematic is just the art of assigning different names to the same concept. SVD is nothing more than decomposing vectors onto orthogonal axex-- we justdecided it may need a more deluxe name.
+**Keep it simple**: Since mathematic is just the art of assigning different names to the same concept. SVD is nothing more than decomposing vectors onto orthogonal axex-- we just decided it may need a more deluxe name.
 ## Requirements
 - Python 3.6
 - Numpy
