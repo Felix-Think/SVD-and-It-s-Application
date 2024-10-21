@@ -57,7 +57,7 @@ In this notebook, SVD is applied to compress images. By retaining fewer singular
 - Observe the balance between compression level and image quality.
 
 
-### 2. [Denoising_Image_SVD](Denoising_Image_SVD.ipynb)
+### 2. [Denoising_Image_SVD](Denoising_Image_SVD.ipynb).
 
 This notebook demonstrates how SVD can be applied to reduce noise in images. It walks through loading a noisy image, applying SVD, and visualizing the results.
 
