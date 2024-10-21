@@ -53,19 +53,12 @@ After understanding vector decomposition, we will extend this concept to matrice
 This notebook demonstrates how SVD can be applied to reduce noise in images. It walks through loading a noisy image, applying SVD, and visualizing the results.
 
 **Usage**:
-- Load a noisy image.
+- Load a image
+- LOad a file noise.npy
 - Apply different levels of approximation by using fewer singular values.
 - Observe noise reduction as image quality improves.
 
-### 2. `Denoise_SVD_solution.ipynb`
-
-This notebook provides a more structured and optimized solution for image denoising using SVD. It offers reusable code snippets and performance comparisons.
-
-**Usage**:
-- Understand the optimal approach for image denoising.
-- Follow the step-by-step implementation and explanations.
-
-### 3. `Image_Compression.ipynb`
+### 2. `Image_Compression.ipynb`
 
 In this notebook, SVD is applied to compress images. By retaining fewer singular values, you can compress the image while maintaining an acceptable level of quality.
 
