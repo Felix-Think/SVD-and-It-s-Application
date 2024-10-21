@@ -1,37 +1,75 @@
-# Project SVD and Its Application
-## Introduction
-This project is to implement Singular Value Decomposition (SVD) and apply it to image compression and collaborative filtering.
+# Project: SVD and Its Application
 
-**Keep it simple**: Since mathematic is just the art of assigning different names to the same concept. SVD is nothing more than decomposing vectors onto orthogonal axex-- we just decided it may need a more deluxe name.
+## Introduction
+
+This project implements Singular Value Decomposition (SVD) and applies it to two areas: image compression and collaborative filtering.
+
+**Keep it simple:** Mathematics is often the art of assigning different names to the same concept. SVD is essentially just decomposing vectors onto orthogonal axes—it just happens to have a fancier name.
+
 ## Requirements
-- Python 3.6
+
+To run the notebooks, you will need:
+
+- Python 3.6+
 - Numpy
 - Matplotlib
 - Scipy
-- cv2
+- OpenCV (`cv2`)
 
-Otherwise, you can use colab.google to run the code.
-## Installation
+Alternatively, you can use [Google Colab](https://colab.research.google.com) to run the code without installation.
+
+### Installation
+
+To install the necessary packages, run the following commands:
+
 ```bash
-pip install Numpy
-pip install Matplotlib
-pip install Scipy
-pip install opencv-Python
+pip install numpy
+pip install matplotlib
+pip install scipy
+pip install opencv-python
+
 ```
-### Regarding knowledge
--It is required that you have a basic knowledge of linear algebra, vectors, matrices, inverse matrices, eigenvalues, eigen vectors, unit length, properties of matrices, especially square matrices.
+## Prerequisite Knowledge
 
-if you are not familiar with these concepts, you can refer to the following link: [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
-or you can refer to the following link: [eigenvalue_eigenvector_unit_length](eigenvalue_eigenvector_unitlength.pdf)
+To fully understand the project, you should have basic knowledge of:
 
--It is also required that you have a basic knowledge of Python programming language, a little bit of image processing and  machine learning.
+- **Linear Algebra**: vectors, matrices, inverse matrices, eigenvalues, eigenvectors, unit length, properties of matrices (especially square matrices).
+  - If you need a refresher, refer to [Linear Algebra](#) or [Eigenvalues and Eigenvectors](#).
+  
+- **Python**: You should also have some experience with Python, basic image processing, and machine learning concepts.
 
+## Decomposing a Vector into Two Orthogonal Axes
 
-## Decomposing a Vector into two orthogonal axes
- In this section, we will decompose a vector into two orthogonal axes. The vector is a 2D vector, and the axes are also 2D. The axes are orthogonal to each other.
- To clarify this issue further, you can folow this link: [Decomposing a Vector into two orthogonal axes](Decomposing_a_Vector_into_two_orthorgonal_axes.pdf)
+In this section, we will decompose a 2D vector into two orthogonal axes. This process can be applied to any 2D vector, and the axes are orthogonal to each other. For more information, see [Decomposing a Vector into Two Orthogonal Axes](#).
 
-## Express the operation of vector decomposition using matric (SVD)
- We have clarified the concept of decomposing a vector into two orthogonal axes. Next, we will not only apply this concept to a vector but also to a matrix. [Express the operation of vector decomposition using matric (SVD)](Express_the_operation_of_vector_decomposition_using_matric_(SVD).pdf)
+## Applying SVD to Matrices
 
-## Image Compression and Denoising using SVD# -Mini-Project-SVD-and_Its_Application
+After understanding vector decomposition, we will extend this concept to matrices. We'll express the operation of vector decomposition using matrices through SVD.
+
+## Notebooks for Image Processing using SVD
+
+### 1. `Denoising_Image_SVD.ipynb`
+
+This notebook demonstrates how SVD can be applied to reduce noise in images. It walks through loading a noisy image, applying SVD, and visualizing the results.
+
+**Usage**:
+- Load a noisy image.
+- Apply different levels of approximation by using fewer singular values.
+- Observe noise reduction as image quality improves.
+
+### 2. `Denoise_SVD_solution.ipynb`
+
+This notebook provides a more structured and optimized solution for image denoising using SVD. It offers reusable code snippets and performance comparisons.
+
+**Usage**:
+- Understand the optimal approach for image denoising.
+- Follow the step-by-step implementation and explanations.
+
+### 3. `Image_Compression.ipynb`
+
+In this notebook, SVD is applied to compress images. By retaining fewer singular values, you can compress the image while maintaining an acceptable level of quality.
+
+**Usage**:
+- Load an image.
+- Apply SVD to achieve compression by reducing the number of singular values.
+- Observe the balance between compression level and image quality.
