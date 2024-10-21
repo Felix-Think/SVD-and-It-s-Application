@@ -47,7 +47,7 @@ In this section, we will decompose a 2D vector into two orthogonal axes. This pr
 After understanding vector decomposition, we will extend this concept to matrices. We'll express the operation of vector decomposition using matrices through SVD. [Express the operation of vector decomposition using matric (SVD)](Express_the_operation_of_vector_decomposition_using_matric_(SVD).pdf)
 
 ## Notebooks for Image Processing using SVD
-### 1. (Image_Compression.ipynb)[Image_Compression.ipynb]
+### 1. [Image_Compression](Image_Compression.ipynb).
 
 In this notebook, SVD is applied to compress images. By retaining fewer singular values, you can compress the image while maintaining an acceptable level of quality.
 
