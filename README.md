@@ -34,17 +34,17 @@ pip install opencv-python
 To fully understand the project, you should have basic knowledge of:
 
 - **Linear Algebra**: vectors, matrices, inverse matrices, eigenvalues, eigenvectors, unit length, properties of matrices (especially square matrices).
-  - If you need a refresher, refer to [Linear Algebra](#) or [Eigenvalues and Eigenvectors](#).
+  - If you need a refresher, refer to [Linear Algebra](https://www.khanacademy.org/math/linear-algebra) or [eigenvalue_eigenvector_unitlength](eigenvalue_eigenvector_unitlength.pdf).
   
 - **Python**: You should also have some experience with Python, basic image processing, and machine learning concepts.
 
 ## Decomposing a Vector into Two Orthogonal Axes
 
-In this section, we will decompose a 2D vector into two orthogonal axes. This process can be applied to any 2D vector, and the axes are orthogonal to each other. For more information, see [Decomposing a Vector into Two Orthogonal Axes](#).
+In this section, we will decompose a 2D vector into two orthogonal axes. This process can be applied to any 2D vector, and the axes are orthogonal to each other. For more information, see [Decomposing a Vector into Two Orthogonal Axes](Decomposing_a_Vector_into_two_orthorgonal_axes.pd).
 
 ## Applying SVD to Matrices
 
-After understanding vector decomposition, we will extend this concept to matrices. We'll express the operation of vector decomposition using matrices through SVD.
+After understanding vector decomposition, we will extend this concept to matrices. We'll express the operation of vector decomposition using matrices through SVD. [Express the operation of vector decomposition using matric (SVD)](Express_the_operation_of_vector_decomposition_using_matric_(SVD).pdf)
 
 ## Notebooks for Image Processing using SVD
 
