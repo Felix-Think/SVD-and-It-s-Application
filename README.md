@@ -47,8 +47,17 @@ In this section, we will decompose a 2D vector into two orthogonal axes. This pr
 After understanding vector decomposition, we will extend this concept to matrices. We'll express the operation of vector decomposition using matrices through SVD. [Express the operation of vector decomposition using matric (SVD)](Express_the_operation_of_vector_decomposition_using_matric_(SVD).pdf)
 
 ## Notebooks for Image Processing using SVD
+### 1. (Image_Compression.ipynb)[Image_Compression.ipynb]
 
-### 1. `Denoising_Image_SVD.ipynb`
+In this notebook, SVD is applied to compress images. By retaining fewer singular values, you can compress the image while maintaining an acceptable level of quality.
+
+**Usage**:
+- Load an image.
+- Apply SVD to achieve compression by reducing the number of singular values.
+- Observe the balance between compression level and image quality.
+
+
+### 2. [Denoising_Image_SVD](Denoising_Image_SVD.ipynb)
 
 This notebook demonstrates how SVD can be applied to reduce noise in images. It walks through loading a noisy image, applying SVD, and visualizing the results.
 
@@ -57,12 +66,3 @@ This notebook demonstrates how SVD can be applied to reduce noise in images. It 
 - LOad a file noise.npy
 - Apply different levels of approximation by using fewer singular values.
 - Observe noise reduction as image quality improves.
-
-### 2. `Image_Compression.ipynb`
-
-In this notebook, SVD is applied to compress images. By retaining fewer singular values, you can compress the image while maintaining an acceptable level of quality.
-
-**Usage**:
-- Load an image.
-- Apply SVD to achieve compression by reducing the number of singular values.
-- Observe the balance between compression level and image quality.
